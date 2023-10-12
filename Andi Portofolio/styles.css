@@ -122,6 +122,13 @@ color: black !important;
     margin-bottom: 20px; 
 }
 
+.modal-header {
+    color-background: ;
+}
+
+.modal-footer {
+    color-background: ;
+}
 
 .btn-link {
   text-decoration: none;
