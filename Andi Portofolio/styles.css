@@ -107,6 +107,22 @@ color: black !important;
   background-color: #868fba;
 }
 
+/* Modal POP UP Tentang */
+.modal-content {
+    text-align: center; 
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body img {
+    margin-bottom: 20px; 
+}
+
+
 .btn-link {
   text-decoration: none;
 }
