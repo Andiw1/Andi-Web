@@ -123,14 +123,16 @@ color: black !important;
 }
 
 .modal-header {
-    background-color: #868fba;
+    background: rgb(134,143,186);
+    background: linear-gradient(180deg, rgba(134,143,186,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .modal-footer {
-    background-color: #868fba;
+    background: rgb(134,143,186);
+    background: linear-gradient(0deg, rgba(134,143,186,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .btn-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
