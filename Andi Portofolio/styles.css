@@ -136,11 +136,21 @@ color: black !important;
     text-decoration: none;
 }
 
-/* Saat mengarahkan kursor ke ikon */
-.icon a:hover {
-    transform: scale(1.1); /* Perbesar ikon saat dihover */
-    transition: transform 0.3s ease; /* Animasi perubahan */
-    color: #FF5733; /* Ganti warna teks saat dihover */
+.social-link {
+    display: inline-block;
+    padding: 10px 20px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    background-color: #007BFF; /* Warna latar belakang saat tidak di-hover */
+    color: #fff; /* Warna teks saat tidak di-hover */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Bentuk sudut tombol */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk hover */
+}
+
+.social-link:hover {
+    background-color: #0056b3; /* Warna latar belakang saat di-hover */
+    color: #fff; /* Warna teks saat di-hover */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi saat di-hover */
 }
 
 
