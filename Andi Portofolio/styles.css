@@ -136,6 +136,7 @@ color: black !important;
     text-decoration: none;
 }
 
+/*
 .social-link {
     display: inline-block;
     padding: 10px 20px; /* Sesuaikan dengan ukuran yang Anda inginkan */
@@ -146,7 +147,7 @@ color: black !important;
     border-radius: 5px; /* Bentuk sudut tombol */
     transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk hover */
 }
-
+/*
 .social-link:hover {
     background-color: #0056b3; /* Warna latar belakang saat di-hover */
     color: #fff; /* Warna teks saat di-hover */
